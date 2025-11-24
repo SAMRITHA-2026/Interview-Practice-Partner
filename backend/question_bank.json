@@ -1,0 +1,53 @@
+{
+  "software_engineer": [
+    {
+      "id": "se-1",
+      "type": "behavioral",
+      "text": "Tell me about a time you solved a difficult bug."
+    },
+    {
+      "id": "se-2",
+      "type": "technical",
+      "text": "Design a URL shortener. What components would you use and why?"
+    },
+    {
+      "id": "se-3",
+      "type": "technical",
+      "text": "Explain the difference between process and thread."
+    }
+  ],
+  "sales": [
+    {
+      "id": "sales-1",
+      "type": "behavioral",
+      "text": "Tell me about a time you overcame an objection from a customer."
+    },
+    {
+      "id": "sales-2",
+      "type": "role",
+      "text": "How do you handle leading a demo for a skeptical prospect?"
+    },
+    {
+      "id": "sales-3",
+      "type": "behavioral",
+      "text": "Describe a time when you exceeded a sales target."
+    }
+  ],
+  "retail": [
+    {
+      "id": "retail-1",
+      "type": "situational",
+      "text": "How would you handle a customer complaining loudly about a product?"
+    },
+    {
+      "id": "retail-2",
+      "type": "behavioral",
+      "text": "Tell me about a time you worked as part of a team to meet a deadline."
+    },
+    {
+      "id": "retail-3",
+      "type": "situational",
+      "text": "How would you upsell a product to a budget-conscious customer?"
+    }
+  ]
+}

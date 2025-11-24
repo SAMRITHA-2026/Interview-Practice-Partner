@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interview Practice Partner</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: "Inter", sans-serif;
+      background: #020617;
+      color: #e2e8f0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 70px 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 70px; /* FIXED big spacing */
+    }
+
+    /* LEFT CONTENT */
+    .left {
+      max-width: 600px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, #3b82f6, #60a5fa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 20px;
+    }
+
+    p.subtitle {
+      font-size: 1.2rem;
+      color: #94a3b8;
+      margin-bottom: 35px;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      background: linear-gradient(90deg, #2563eb, #3b82f6);
+      padding: 14px 32px;
+      border-radius: 10px;
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+      transition: 0.3s;
+      box-shadow: 0 0 20px rgba(59,130,246,0.4);
+      margin-bottom: 40px;
+    }
+
+    .cta-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0 32px rgba(59,130,246,0.7);
+    }
+
+    /* FEATURES */
+    .features {
+      margin-top: 20px;
+    }
+
+    .features h2 {
+      font-size: 2rem;
+      color: #60a5fa;
+      margin-bottom: 25px;
+    }
+
+    .feature-grid {
+      display: flex;
+      gap: 28px; /* FIX: more spacing so cards don’t touch */
+      flex-wrap: nowrap;
+    }
+
+    .feature {
+      flex: 1;
+      padding: 22px;
+      background: rgba(30,41,59,0.55);
+      border-radius: 16px;
+      border: 1px solid rgba(59,130,246,0.35);
+      backdrop-filter: blur(6px);
+    }
+
+    .feature h3 {
+      color: #93c5fd;
+      margin-bottom: 12px;
+      font-size: 1.1rem;
+    }
+
+    .feature p {
+      color: #cbd5e1;
+      font-size: 0.95rem;
+      line-height: 1.45;
+    }
+
+    /* IMAGE */
+    .image-side img {
+      width: 400px;
+      border-radius: 16px;
+      border: 1px solid rgba(59,130,246,0.3);
+      box-shadow: 0 0 40px rgba(59,130,246,0.5);
+      display: block;
+      margin: 0 auto;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 0;
+      margin-top: 30px;
+      color: #64748b;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+      }
+      .image-side img {
+        width: 70%;
+      }
+      .feature-grid { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- LEFT CONTENT -->
+    <div class="left">
+      <h1>Welcome to Interview Practice Partner</h1>
+      <p class="subtitle">Your smart partner for interview practice and preparation</p>
+      
+      <a href="#features" class="cta-btn">Get Started</a>
+
+      <div class="features" id="features">
+        <h2>Features</h2>
+
+        <div class="feature-grid">
+
+          <div class="feature">
+            <h3>AI-Powered Questions</h3>
+            <p>Practice with smart AI-generated interview questions tailored for you.</p>
+          </div>
+
+          <div class="feature">
+            <h3>Instant Feedback</h3>
+            <p>Receive detailed feedback on your answers to improve your skills fast.</p>
+          </div>
+
+          <div class="feature">
+            <h3>Voice & Text Interaction</h3>
+            <p>Speak or type your answers and get real-time evaluation.</p>
+          </div>
+
+        </div>
+      </div>
+
+      <h2 style="margin-top:10px; color:#60a5fa;">Ready to Ace Your Interview?</h2>
+      <a href="/chat" class="cta-btn" style="margin-top:10px;">Start Practicing Now</a>
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="image-side">
+      <img src="Profile.gif" alt="Girl profile image">
+    </div>
+
+  </div>
+
+  <footer>
+    © 2025 Interview Agent. All rights reserved.
+  </footer>
+
+</body>
+</html>
